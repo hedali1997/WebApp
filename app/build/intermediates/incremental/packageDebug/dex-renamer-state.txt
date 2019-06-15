@@ -1,0 +1,7 @@
+#Sat Jun 15 10:55:01 CST 2019
+base.0=E\:\\projects\\myview\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_632e2c8c369965179b21e8edc31a31c60404b5e8
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=E\:\\projects\\myview\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_75b3772a6aee5fed6b30c21e0c8baf5393497452\\classes.dex
+base.1=E\:\\projects\\myview\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_75b3772a6aee5fed6b30c21e0c8baf5393497452
+file.0=E\:\\projects\\myview\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_632e2c8c369965179b21e8edc31a31c60404b5e8\\classes.dex

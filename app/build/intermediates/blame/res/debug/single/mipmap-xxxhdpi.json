@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\projects\\myview\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "E:\\projects\\myview\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\projects\\myview\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\love.png",
+        "source": "E:\\projects\\myview\\app\\src\\main\\res\\mipmap-xxxhdpi\\love.png"
+    }
+]
