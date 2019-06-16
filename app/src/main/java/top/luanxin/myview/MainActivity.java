@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         wv = (WebView) findViewById(R.id.wv);// 获取webview组件
         pb = (ProgressBar) findViewById(R.id.pb);// 获取progressbar组件
         wv.getSettings().setBuiltInZoomControls(true);//启用缩放功能
-        wv.getSettings().setJavaScriptEnabled(true);//启用js
+        wv.getSettings().setJavaScriptEnabled(true);//启用js  报警告是正常的
         wv.setWebViewClient(new WebViewClient());//创建并使用webviewclient对象
         wv.setWebChromeClient(new WebChromeClient() {
             public void onProgressChanged(WebView view, int progress) {
@@ -69,6 +69,8 @@ public class MainActivity extends AppCompatActivity {
         if(wv.canGoBack()) { //如果webview有上一页
             wv.goBack(); // 返回上一页
             return;
+        } else {
+            System.exit(0);
         }
         super.onBackPressed(); // 调用父类的同名方法，以执行默认操作（结束程序）
     }
@@ -82,9 +84,9 @@ public class MainActivity extends AppCompatActivity {
             case KeyEvent.KEYCODE_BACK:
                 long secondTime=System.currentTimeMillis();
                 if(secondTime-firstTime>2000){
+                    onBackPressed(); // 调用返回上一页
                     Toast.makeText(MainActivity.this,"再按一次退出程序",Toast.LENGTH_SHORT).show();
                     firstTime=secondTime;
-                    onBackPressed(); // 调用返回上一页
                     return true;
                 }else{
                     System.exit(0);

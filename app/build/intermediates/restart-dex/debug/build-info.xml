@@ -4,33 +4,40 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="318433770718900"
+    timestamp="403930081334500"
     token="-2452249311747149001"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="448" />
+        duration="481" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="343" />
+        duration="53" />
     <task
         name="verifier"
-        duration="136" />
+        duration="10" />
 
     <artifact
-        location="E:\projects\myview\app\build\outputs\apk\mlovedl.apk"
-        type="MAIN" />
+        location="E:\projects\myview\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="318433770718900"
+        timestamp="403790535780400"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="E:\projects\myview\app\build\outputs\apk\mlovedl.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="403930081334500"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="E:\projects\myview\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>
