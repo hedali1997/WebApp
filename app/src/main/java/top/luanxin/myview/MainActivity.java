@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        wv.loadUrl("http://www.mlovedl.top");//加载网页
+        wv.loadUrl("http://www.XXXX.top");//加载自己的网页
 
     }
 
